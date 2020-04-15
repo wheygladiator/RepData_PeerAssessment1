@@ -20,7 +20,7 @@ hist(stepsPerDay$sumsteps, main = "Histogram of Daily Steps",
      col="gray", xlab="Steps", ylim = c(0,30))
 ```
  
-![image-1](image-1.png) 
+![]Pic%201.png
 
 ```r
 print(paste("The mean is: ", meanPreNA))
