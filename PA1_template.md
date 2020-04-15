@@ -22,7 +22,7 @@ df.activity.steps_per_day <- aggregate(steps ~ date, data = df.activity.data, su
 hist(df.activity.steps_per_day$steps, xlab="Steps per day", main="Histogram of the total number of steps taken each day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
+![](Pic%201.png)
 
 ### 2. Mean and median number of steps taken each day
 
