@@ -20,7 +20,7 @@ hist(stepsPerDay$sumsteps, main = "Histogram of Daily Steps",
      col="gray", xlab="Steps", ylim = c(0,30))
 ```
  
-![]Pic%201.png
+![](Pic%201.png)
 
 ```r
 print(paste("The mean is: ", meanPreNA))
@@ -47,7 +47,7 @@ plot(stepsPerInterval$meansteps ~ stepsPerInterval$interval,
      main = "Steps By Time Interval")
 ```
 
-![image-2](image-2.png) 
+![](Pic%202.png) 
 
 
 On average across all the days in the dataset, the 5-minute interval contains
@@ -96,7 +96,7 @@ hist(stepsPerDay$sumsteps, main = "Histogram of Daily Steps",
      col="gray", xlab="Steps")
 ```
 
-![image-4](image-4.png) 
+![](Pic%203.png) 
 
 ```r
 NACompare <- data.frame(mean = c(meanPreNA,meanPostNA),median = c(medianPreNA,medianPostNA))
@@ -155,4 +155,4 @@ g + geom_line() + facet_grid (day~.) +
         theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![image-6](image-6.png) 
+![](Pic%204.png) 
